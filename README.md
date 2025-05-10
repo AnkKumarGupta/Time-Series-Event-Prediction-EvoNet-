@@ -86,6 +86,9 @@ For a quick verification of the results on a subset of dataset from the saved mo
 Run the one block script in demo.ipynb.
 The written script uses the saved trained model checkpoints of DJIA 30 dataset, to calculate the evaluation metrics on the subset of test data. 
 The sample subset size can be changed using the variable name: DEMO_SAMPLES
+
+```
+
 ## Reference
 
 [1] Wenjie, H; Yang, Y; Ziqiang, C; Carl, Y and Xiang, R, 2021, Time-Series Event Prediction with Evolutionary State Graph, In WSDM, 2021
