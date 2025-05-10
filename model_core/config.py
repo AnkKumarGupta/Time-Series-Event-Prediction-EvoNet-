@@ -24,6 +24,6 @@ class ModelParam(object):
     graph_dim = 256
     node_dim = 96
     learning_rate = 0.001
-    batch_size = 64
+    batch_size = 1000
     id_gpu = '0'
     pos_weight = 1.0
