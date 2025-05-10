@@ -91,6 +91,6 @@ The sample subset size can be changed using the variable name: DEMO_SAMPLES
 
 ## Reference
 
-[1] Wenjie, H; Yang, Y; Ziqiang, C; Carl, Y and Xiang, R, 2021, Time-Series Event Prediction with Evolutionary State Graph, In WSDM, 2021
-[2] Wenjie, H; Yang, Y; Ziqiang, C; Carl, Y and Xiang, R, 2021, https://github.com/zjunet/EvoNet
+[1] Wenjie, H; Yang, Y; Ziqiang, C; Carl, Y and Xiang, R, 2021, Time-Series Event Prediction with Evolutionary State Graph, In WSDM, 2021 <br>
+[2] Wenjie, H; Yang, Y; Ziqiang, C; Carl, Y and Xiang, R, 2021, https://github.com/zjunet/EvoNet <br>
 [3] Lin, Girshick, R., He, K., Doll´ar, P. 2017. Focal Loss for Dense Object Detection. Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2980–2988.
