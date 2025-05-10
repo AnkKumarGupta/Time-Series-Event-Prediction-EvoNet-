@@ -1,21 +1,23 @@
 # EvoNet
 This project implements the Evolutionary State Graph Neural Network proposed in [1], which is a GNN-based state-recognition and graph based method for time-series event prediction. This work is done as part of IE 506 Course Project which is reproduction of results of Paper 'Time Series Event Prediction using EvoNet' along with improvements, which is compatible with latest libraries, and the one shot results after improvements obtained after that are as follows:
 
-Package -> Previously Compatible with -> Now Compatible with
-Python -> 3.6.2 ->  3.12.3
-Tensorflow ->  1.1.0 ->  2.18.0
-Numpy ->  1.11.0 -> 2.0.2
-Scikit-learn ->  0.19.1 -> 1.6.1
-xgboost -> 0.80 -> 2.1.4
-tslearn -> 0.1.24 -> 0.6.3
+Package -> Previously Compatible with -> Now Compatible with <br>
+Python -> 3.6.2 ->  3.12.3 <br>
+Tensorflow ->  1.1.0 ->  2.18.0 <br>
+Numpy ->  1.11.0 -> 2.0.2 <br>
+Scikit-learn ->  0.19.1 -> 1.6.1 <br>
+xgboost -> 0.80 -> 2.1.4 <br>
+tslearn -> 0.1.24 -> 0.6.3 <br>
 
-Achieved Improvements on Dataset DJIA30:
-Metric -> Result in Paper -> Result after Improvement
-Accuracy -> 0.7645 -> 0.6814
-Precision -> 0.4711 -> 0.3689
-Recall -> 0.3359 -> 0.5753
-F1 -> 0.3922 -> 0.4495
-AUC -> 0.6471 -> 0.6747
+Note: Although the code can run on TF2.x, it uses backward compatibility with TF1.x, which was done to ensure minimal changes in the original code while naive reproduction and verification of the results from the research paper. 
+
+Achieved Improvements on Dataset DJIA30: <br>
+Metric -> Result in Paper -> Result after Improvement <br>
+Accuracy -> 0.7645 -> 0.6814 <br>
+Precision -> 0.4711 -> 0.3689 <br>
+Recall -> 0.3359 -> 0.5753 <br>
+F1 -> 0.3922 -> 0.4495 <br>
+AUC -> 0.6471 -> 0.6747 <br>
 
 ## Compatibility
 
