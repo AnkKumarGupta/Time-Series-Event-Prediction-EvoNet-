@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = ""   # or set to args.gpu below if you prefer
+#os.environ["CUDA_VISIBLE_DEVICES"] = ""   # Uncomment this to run the code on cpu
 import pickle
 import numpy as np
 import tensorflow.compat.v1 as tf
@@ -34,6 +34,8 @@ def main(dataname, gpu, n_splits=5, max_epochs=100, patience=5):
     params.pos_weight    = datainfos[dataname][3]
     params.learning_rate = 0.001
 
+    os.environ["CUDA_VISIBLE_DEVICES"] = params.id_gpu         #Enabling GPU (Comment this to run the code on CPU)
+    
     # 2) Load entire train+test
     loader = LoadData()
     loader.set_configuration(params)
